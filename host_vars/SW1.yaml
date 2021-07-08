@@ -1,0 +1,15 @@
+intfs:
+    l2_interfaces:
+    -   name: GigabitEthernet0/0
+    -   access:
+            vlan: 2
+        mode: access
+        name: GigabitEthernet0/1
+    -   access:
+            vlan: 5
+        mode: access
+        name: GigabitEthernet0/2
+    -   access:
+            vlan: 5
+        mode: access
+        name: GigabitEthernet0/3

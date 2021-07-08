@@ -1,0 +1,26 @@
+intfs:
+    interfaces:
+    -   description: hello this is a test
+        enabled: true
+        name: Tunnel100
+    -   description: NETCONF test
+        enabled: true
+        name: GigabitEthernet1
+    -   enabled: true
+        name: GigabitEthernet2
+    -   enabled: false
+        name: GigabitEthernet3
+    -   enabled: false
+        name: GigabitEthernet4
+    l3_interfaces:
+    -   ipv4:
+        -   address: 88.88.88.1 255.255.255.0
+        name: Tunnel100
+    -   ipv4:
+        -   address: 192.168.1.202 255.255.255.0
+        name: GigabitEthernet1
+    -   ipv4:
+        -   address: 82.1.1.1 255.255.255.0
+        name: GigabitEthernet2
+    -   name: GigabitEthernet3
+    -   name: GigabitEthernet4

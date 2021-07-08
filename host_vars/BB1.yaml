@@ -1,0 +1,27 @@
+intfs:
+    interfaces:
+    -   duplex: auto
+        enabled: true
+        name: GigabitEthernet0/0
+        speed: auto
+    -   duplex: auto
+        enabled: true
+        name: GigabitEthernet0/1
+        speed: auto
+    -   duplex: auto
+        enabled: false
+        name: GigabitEthernet0/2
+        speed: auto
+    -   duplex: auto
+        enabled: false
+        name: GigabitEthernet0/3
+        speed: auto
+    l3_interfaces:
+    -   ipv4:
+        -   address: 192.168.1.162 255.255.255.0
+        name: GigabitEthernet0/0
+    -   ipv4:
+        -   address: 99.1.1.100 255.255.255.0
+        name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
+    -   name: GigabitEthernet0/3

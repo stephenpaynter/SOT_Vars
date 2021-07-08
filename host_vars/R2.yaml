@@ -1,0 +1,60 @@
+intfs:
+    interfaces:
+    -   enabled: true
+        name: loopback0
+    -   duplex: auto
+        enabled: true
+        name: GigabitEthernet0/0
+        speed: auto
+    -   duplex: auto
+        enabled: true
+        name: GigabitEthernet0/1
+        speed: auto
+    -   duplex: auto
+        enabled: true
+        name: GigabitEthernet0/2
+        speed: auto
+    -   duplex: auto
+        enabled: true
+        name: GigabitEthernet0/3
+        speed: auto
+    -   duplex: auto
+        enabled: true
+        name: GigabitEthernet0/4
+        speed: auto
+    -   duplex: auto
+        enabled: true
+        name: GigabitEthernet0/5
+        speed: auto
+    -   duplex: auto
+        enabled: false
+        name: GigabitEthernet0/6
+        speed: auto
+    -   duplex: auto
+        enabled: false
+        name: GigabitEthernet0/7
+        speed: auto
+    l3_interfaces:
+    -   ipv4:
+        -   address: 2.2.2.2 255.255.255.255
+        name: loopback0
+    -   ipv4:
+        -   address: 192.168.1.72 255.255.255.0
+        name: GigabitEthernet0/0
+    -   ipv4:
+        -   address: 12.1.1.2 255.255.255.0
+        name: GigabitEthernet0/1
+    -   ipv4:
+        -   address: 62.1.1.2 255.255.255.0
+        name: GigabitEthernet0/2
+    -   ipv4:
+        -   address: 23.1.1.2 255.255.255.0
+        name: GigabitEthernet0/3
+    -   ipv4:
+        -   address: 99.1.1.2 255.255.255.0
+        name: GigabitEthernet0/4
+    -   ipv4:
+        -   address: 82.1.1.2 255.255.255.0
+        name: GigabitEthernet0/5
+    -   name: GigabitEthernet0/6
+    -   name: GigabitEthernet0/7

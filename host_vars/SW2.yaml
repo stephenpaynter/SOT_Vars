@@ -1,0 +1,6 @@
+intfs:
+    l2_interfaces:
+    -   name: GigabitEthernet0/0
+    -   name: GigabitEthernet0/1
+    -   name: GigabitEthernet0/2
+    -   name: GigabitEthernet0/3
